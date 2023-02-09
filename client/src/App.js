@@ -21,7 +21,7 @@ function App() {
     setChatLog([...chatLog, { chatPrompt: inputPrompt }]);
     async function callAPI() {
       try {
-        const response = await fetch("https://talk-bot.onrender.com/", {
+        const response = await fetch("http://localhost:4000/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: inputPrompt }),
@@ -61,7 +61,7 @@ function App() {
             </svg>
           </button>
         </div>
-        <h1>TalkBot</h1>
+        <h1>Imoogle 3.0</h1>
       </header>
       {showMenu && (
         <nav>
@@ -169,8 +169,8 @@ function App() {
               </g>
             </svg>
           }
-          text="OpenAI Discord"
-          link="https://discord.com/invite/openai"
+          text="imoogle AI Discord"
+          link="https://discord.com"
         />
         <NavLinks
           svg={
@@ -191,7 +191,7 @@ function App() {
             </svg>
           }
           text="Updates & FAQ"
-          link="https://help.openai.com/en/collections/3742473-chatgpt"
+          link="https://sidicode.org.ng"
         />
       </aside>
 

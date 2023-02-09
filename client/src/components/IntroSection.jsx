@@ -5,14 +5,14 @@ const IntroSection = () => {
   return (
     <div id="introsection">
       <h1>
-        Introducing Talkbot
+        Introducing Imoogle 3.0
         <BotResponse response=" - The Ultimate AI Assistant" />
       </h1>
       <h2>
         A cutting-edge AI-powered app that provides instant answers to any
-        question you may have. With Talkbot, you'll never be left searching for
+        question you may have. With Imoogle AI, you'll never be left searching for
         answers again. Whether you need information for school or work, or just
-        want to know the latest news, Talkbot has you covered.
+        want to know the latest news, Imoogle AI has you covered.
       </h2>
       <p>
         Features:
@@ -25,8 +25,8 @@ const IntroSection = () => {
         </ul>
       </p>
       <p>
-        Say goodbye to endless searching and typing, and say hello to TalkBot,
-        your personal AI assistant. Try it now and see for yourself how TalkBot
+        Say goodbye to endless searching and typing, and say hello to Imoogle 3.0,
+        your personal AI assistant. Try it now and see for yourself how Imoogle AI
         can make your life easier.
       </p>
     </div>
