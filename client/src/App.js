@@ -21,7 +21,7 @@ function App() {
     setChatLog([...chatLog, { chatPrompt: inputPrompt }]);
     async function callAPI() {
       try {
-        const response = await fetch("https://imoogleai.onrender.com", {
+        const response = await fetch("https://imoogleai.onrender.com/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: inputPrompt }),
